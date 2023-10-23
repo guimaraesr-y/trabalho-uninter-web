@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+    #hero {
+        flex-direction: column;        
+    }
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    #hero img {
+        width: 150px;
+    }
+
+    #sobre-content  {
+        flex-direction: column;
+    }
+
+    #sobre-image {
+        width: 100%;
+    }
+
+    #portfolio {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    #portfolio-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #portfolio-content a {
+        width: 75%;
+    }
+
+    #contato form {
+        background: none;
+        width: 75%;
+    }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Guimarães — Web Developer</title>
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.mobile.css">
+    
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-left">
+            <a class="logo-link" href="#home">
+                <img class="logo" src="imgs/logo-1x-compressed.gif">
+            </a>
+            <div id="header-toggle">
+                <a href="javascript:void(0);" onclick="toggleNavbarMenu()">
+                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6H20M4 12H20M4 18H20" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="header-links">
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </header>
+    
+    <main>
+        <div id="hero">
+            <div id="hero-image">
+                <img id="imagem" src="" alt="" title=""/>
+            </div>
+            <div id="hero-text">
+                <h1>Ryan<br/>Guimarães</h1>
+            </div>
+        </div>
+        
+        <div id="sobre" class="container">
+            <h1>Sobre Mim</h1><br><br><br>
+            
+            <div id="sobre-content">
+                <img id="sobre-image" src="imgs/eu.jpg" alt="">
+                <div id="sobre-text">
+                    <h1>Full-Stack Developer</h1>
+                    <p>
+                        Sou estudante do curso técnico de informática na FAETEC, aluno pesquisador 
+                        em iniciação científica, estagiário de TI e curso análise e desenvolvimento 
+                        de sistemas na Uninter.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="portfolio" class="container">
+            <h1>Meu Portfólio</h1>
+            
+            <div class="container" id="portfolio-content">
+                <a href="https://github.com/guimaraesr-y" target="_blank">
+                    <div>
+                        <img src="imgs/github.svg" alt="">
+                        <h3>GitHub</h3>
+                    </div>
+                </a>
+                <a href="https://medium.com/@guimaraesry" target="_blank">
+                    <div>
+                        <img src="imgs/medium.svg" alt="">
+                        <h3>Medium</h3>
+                    </div>
+                </a>
+                <a href="https://ryanguimaraes.dev" target="_blank">
+                    <div>
+                        <img src="imgs/website.svg" alt="">
+                        <h3>Meu Website</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div id="contato">
+            
+            <div style="overflow: hidden;">
+                <img style="width: 100%;" src="imgs/divider-contato.svg" alt="">
+            </div>
+
+            <form action="" class="container">
+                <h1 style="text-align: center;">Entre em Contato Comigo!</h1><br><br>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome" placeholder="Digite seu nome" class="contato-input">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="joao@exemplo.com" class="contato-input">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Olá, mundo!" rows="5" class="contato-textarea"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="contato-btn">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
